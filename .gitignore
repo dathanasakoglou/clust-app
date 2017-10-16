@@ -33,4 +33,4 @@ vignettes/*.pdf
 *.knit.md
 
 #Required
-static/* linguist-vendored
+www/* linguist-vendored
