@@ -1,2 +1,2 @@
-# clustApp
+# clustapp
 Clustering App
