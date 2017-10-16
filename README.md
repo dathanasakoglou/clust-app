@@ -1,2 +1,2 @@
 # clustapp
-Clustering App
+clustering app
