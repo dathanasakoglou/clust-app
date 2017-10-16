@@ -1,0 +1,36 @@
+.main-header .logo {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5 {
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#downloadData, #downloadReport{
+    margin-left: 15px;
+    color: #000000;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #3c8dbc;
+}
+
+.sidebar-menu img {
+    position: fixed;
+    left: 25px;
+    bottom: 30px;
+    width: 180px;
+}
+
+body > div > aside > section {
+    color: white;
+}
+
+.box-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

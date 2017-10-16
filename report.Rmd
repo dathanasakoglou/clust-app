@@ -1,0 +1,17 @@
+---
+title: "Report"
+output: html_document
+params:
+  clusters: 'NA'
+  x: 'NA'
+  y: 'NA'
+  data: 'NA'
+---
+
+# K-means clustering performed with, `r params$clusters`, clusters.
+```{r, kmeans, fig.width=10, fig.height=5}
+plot(iris[,c(params$x,params$y)],
+    col = clusters()$cluster,
+    pch = 20, cex = 2)
+points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
+```
